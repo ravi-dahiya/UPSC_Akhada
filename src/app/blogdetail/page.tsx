@@ -3,7 +3,6 @@
 import React from "react";
 import Image from "next/image";
 import inner from "../images/blog_banner.jpg";
-import img from "../images/blog_img.jpg";
 import img1 from "../images/blog_img1.jpg";
 import { Container, Row, Col } from "react-bootstrap";
 

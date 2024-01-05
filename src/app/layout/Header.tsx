@@ -82,14 +82,15 @@ function Header() {
                   <Nav >
                     <Link className='nav-link home_link' href="/">Home</Link>
                     <Link className='nav-link home_link' href="/aboutus">About</Link>
-                    <NavDropdown title="Newly added" id="basic-nav-dropdown" className='custom_dropdown'>
+                    <Link className='nav-link home_link' href="/courses">Courses</Link>
+                    {/* <NavDropdown title="Newly added" id="basic-nav-dropdown" className='custom_dropdown'>
                       <NavDropdown.Item href="/coursedetails"> Target 550+ in UPSC CSE MAINS- GS and ESSAY</NavDropdown.Item>
                       <NavDropdown.Item href="/"> UPSC GS Paperwise Daily Answer</NavDropdown.Item>
                       <NavDropdown.Item href="/"> Optional Answer Writing & Mentorship</NavDropdown.Item>
                       <NavDropdown.Item href="/"> UPSC Civil Services Special</NavDropdown.Item>
                       <NavDropdown.Item href="/">KARAMYOGI - UPPSC Updated</NavDropdown.Item>
                       <NavDropdown.Item href="/"> Haryana Civil Services (HCS) 2023</NavDropdown.Item>
-                    </NavDropdown>
+                    </NavDropdown> */}
                     <Link className='nav-link' href="/blogs">Blogs</Link>
                     <Link className='nav-link' href="/#footersec">Contact US</Link>
                     

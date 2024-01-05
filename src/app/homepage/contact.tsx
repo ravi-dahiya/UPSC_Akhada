@@ -11,11 +11,11 @@ function ContactUs() {
       <section className="contact_sec">
         <Container>
             <Row>
-            <Col lg="6">
+            <Col lg="6" sm="6">
                 <Image src={contact} alt="contact_img" className='contact_img' />
              </Col>
 
-              <Col lg="6">
+             <Col lg="6" sm="6">
                 <div className="section_title text-center">
                     <h1>Get In Touch</h1>
               </div>
