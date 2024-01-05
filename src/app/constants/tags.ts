@@ -9,6 +9,11 @@ export const tags = [
 				name: "aboutus_description",
 				content: "some content",
 			},
+			{
+				type: "description",
+				name: "aboutus_description",
+				content: "some content",
+			},
 		],
 	},
 	{
