@@ -21,7 +21,7 @@ function Services() {
             </div>
 
             <Row>
-              <Col lg="4">
+              <Col lg="4" sm={6}>
                 <div className='service_Card'>
                     <Image src={icon1} alt="img" />
                     <h2>Daily Answer Writing</h2>
@@ -29,7 +29,7 @@ function Services() {
                 </div>
               </Col>
 
-              <Col lg="4">
+              <Col lg="4" sm={6}>
                 <div className='service_Card'>
                     <Image src={icon2} alt="img" />
                     <h2>Mentorship</h2>
@@ -37,7 +37,7 @@ function Services() {
                 </div>
               </Col>
 
-              <Col lg="4">
+              <Col lg="4" sm={6}>
                 <div className='service_Card'>
                     <Image src={icon3} alt="img" />
                     <h2>Test Series</h2>
@@ -45,7 +45,7 @@ function Services() {
                 </div>
               </Col>
 
-              <Col lg="4">
+              <Col lg="4" sm={6}>
                 <div className='service_Card'>
                     <Image src={icon4} alt="img" />
                     <h2>Evaluate yourself</h2>
@@ -53,7 +53,7 @@ function Services() {
                 </div>
               </Col>
 
-              <Col lg="4">
+              <Col lg="4" sm={6}>
                 <div className='service_Card'>
                     <Image src={icon5} alt="img" />
                     <h2>Free Updates</h2>
@@ -61,7 +61,7 @@ function Services() {
                 </div>
               </Col>
 
-              <Col lg="4">
+              <Col lg="4" sm={6}>
                 <div className='service_Card'>
                     <Image src={icon6} alt="img" />
                     <h2>24X7 Support</h2>

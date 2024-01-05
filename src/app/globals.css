@@ -793,13 +793,14 @@ body .nav_header {
 	position:fixed;
   bottom: 100px;
 	right:0%;
-	width:220px;
+	/* width:220px; */
+  width: 60px;
 	display:flex;
 	flex-direction:column;
 }  
 
 .sticky-icon a {
-  transform: translate(160px,0px);
+  transform: translate(0px,0px);
   border-radius: 50px 0px 0px 50px;
   text-align: left;
   margin: 2px;
@@ -809,11 +810,13 @@ body .nav_header {
   font-size: 15px;
   font-family: var(--primary-font-family);
   transition: all 0.8s;
+  width: 200px;
 }
 
-.sticky-icon a:hover  {
-	color:#FFF;
-	transform:translate(0px,0px);}	
+.sticky-icon a:hover {
+	color: #FFF;
+	transform: translate(-100px,0px);
+}
 
 .sticky-icon a:hover span  {
 	transform:rotate(360deg);}
@@ -1134,4 +1137,177 @@ body .nav_header {
 
 .blog_card a:hover {
   letter-spacing: 1px;
+}
+
+
+/*======== responsive starts here ========== */
+
+
+
+@media only screen and (min-width:768px) and (max-width: 959px) {
+ 
+  section {
+    padding: 40px 0;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none !important;
+  }
+
+  .header.sticky .navbar-toggler {
+    border:0 !important;
+    padding-right: 0 !important;
+  }
+
+  .header.sticky .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+  }
+
+  .choose_content li {
+    width: 47%;
+  }
+
+  .course_card {
+    min-height: auto;
+    margin-bottom: 20px;
+  }
+
+  .course_card .btn {
+    position: relative;
+  }
+
+  
+
+}
+
+@media screen and (max-width:767px) {
+  .topbar {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .topbar_right {
+    text-align: center;
+  }
+
+  .topbar_right ul li a:last-child {
+    margin: 0;
+  }
+
+  .top_social_icons ul li a {
+    border-right: 0px;
+  }
+
+  .logo img {
+    max-width: 75px;
+  }
+
+  .banner_sec img {
+    height: 220px;
+  }
+
+  section {
+    padding: 50px 0;
+  }
+
+  .app_features ul {
+    align-items: center !important;
+    width: 100%;
+  }
+
+  .app_features ul li {
+    margin-bottom: 25px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .app_slider {
+    margin-bottom: 25px;
+  }
+
+  .playstore_row {
+    gap: 10px;
+    margin-top: 10px;
+    top: 0;
+  }
+
+  .choose_content li {
+    width: 100%;
+    min-height: auto;
+  }
+
+  .course_card {
+    min-height: auto;
+    margin-bottom: 20px;
+  }
+
+  .course_card .btn {
+    position: relative;
+    margin-top: 15px;
+  }
+
+  .contact_sec .section_title {
+    margin-top: 15px;
+  }
+
+  .contact_form {
+    width: 100%;
+  }
+
+  .footer_sec h5 {
+    margin-top: 15px;
+  }
+
+  .copyright {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .copyright p {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none !important;
+  }
+
+  .header.sticky .navbar-toggler {
+    border:0 !important;
+    padding-right: 0 !important;
+  }
+
+  .header.sticky .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+  }
+
+  .inner_banner h3 {
+    font-size: 20px;
+    letter-spacing: 0;
+  }
+
+  .inner_banner img {
+    height: 200px;
+  }
+
+
+
+
+
+
+
+
+}
+
+@media only screen and (min-width:480px) and (max-width: 767px) {
+
+}
+
+/* =====================Mobile Portrait Size to Mobile Landscape Size (devices and browsers)===================== */
+
+@media screen and (max-width:479px) {
+  
+
+
 }
