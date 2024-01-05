@@ -17,16 +17,16 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  const headersList = headers()
-  const header_url = headersList.get('x-url') || "";
-  const pathname = headersList.get('x-pathname');
-  const origin_url = headersList.get('x-origin');
+  // const headersList = headers()
+  // const header_url = headersList.get('x-url') || "";
+  // const pathname = headersList.get('x-pathname');
+  // const origin_url = headersList.get('x-origin');
   // console.log('pathname ', pathname);
-  console.log(JSON.stringify(parseUrlAndAddTags(pathname)));
+  // console.log(JSON.stringify(parseUrlAndAddTags(pathname)));
 
   return (
     <html lang="en">
-      <head>
+      {/* <head>
         <title>UPSC Akhada</title>
         {parseUrlAndAddTags(pathname) &&
           parseUrlAndAddTags(pathname)?.map((itemTag) => (
@@ -35,7 +35,7 @@ export default function RootLayout({
             </>
           ))
         }
-      </head>
+      </head> */}
       <body>
         <Header />
         {children}
