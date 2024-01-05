@@ -1,12 +1,17 @@
 
-'use client'
+// 'use client'
 
 import React from 'react';
 import Image from "next/image";
 import about from "../images/about_us.jpg";
 import { Container } from 'react-bootstrap';
 import Head from 'next/head';
+import type { Metadata } from 'next'
 
+export const metadata: Metadata = {
+  title: 'UPSC AKHADA About us',
+  description: 'Relevant . Quality . Simplified for about us',
+}
 
 export default function About() {
   return (
