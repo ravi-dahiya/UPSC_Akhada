@@ -2,7 +2,8 @@
 
 import React from 'react';
 import Image from "next/image";
-import banner from '../images/banner1.jpg';
+import banner2 from '../images/banner2.jpg';
+import banner3 from '../images/banner3.jpg';
 import 'swiper/swiper-bundle.css';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import { Swiper , SwiperSlide } from 'swiper/react';
@@ -19,8 +20,8 @@ function Banner() {
                 initialSlide={1}
                 loop={true}
                 slidesPerView={1}
-                navigation={true}
-                pagination={false}
+                navigation={false}
+                pagination={true}
                 modules={[Navigation, Autoplay, Pagination]}
 
                 // Responsive breakpoints
@@ -44,12 +45,12 @@ function Banner() {
                     }
                 }}
             >
-                <SwiperSlide>
-                    <Image className='banner_img' src={banner} alt="slider" />
-                </SwiperSlide>
 
                 <SwiperSlide>
-                  <Image className='banner_img' src={banner} alt="slider" />
+                  <Image className='banner_img' src={banner2} alt="slider" />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <Image className='banner_img' src={banner3} alt="slider" />
                 </SwiperSlide>
         
               
