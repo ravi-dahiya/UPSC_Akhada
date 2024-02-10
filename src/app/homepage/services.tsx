@@ -24,7 +24,7 @@ function Services() {
               <Col lg="4" sm={6}>
                 <div className='service_Card'>
                     <Image src={icon1} alt="img" />
-                    <h2>Daily Answer Writing</h2>
+                    <h2>Foundation Courses</h2>
                     <p>Renowned faculy provide video lectures on UPSC Akhada. For each subject expert faculty deliver video lectures.</p>
                 </div>
               </Col>
@@ -40,7 +40,7 @@ function Services() {
               <Col lg="4" sm={6}>
                 <div className='service_Card'>
                     <Image src={icon3} alt="img" />
-                    <h2>Test Series</h2>
+                    <h2>Daily Answer Writing & Test Series</h2>
                     <p>Quality questions in every test series. Every test paper is drafted with passsion to give your brain a challenge for indepth preperation.</p>
                 </div>
               </Col>

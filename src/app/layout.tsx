@@ -10,6 +10,11 @@ import { parseUrlAndAddTags } from './utils/parseTags';
 export const metadata: Metadata = {
   title: 'UPSC AKHADA',
   description: 'Relevant . Quality . Simplified',
+  icons: {
+    icon: {
+      url: "/favicon.ico",
+    },
+  },
 }
 
 export default function RootLayout({
@@ -26,6 +31,9 @@ export default function RootLayout({
 
   return (
     <html lang="en">
+      <head>
+        {/* <link rel="icon" href="favicon.ico"/> */}
+      </head>
       {/* <head>
         <title>UPSC Akhada</title>
         {parseUrlAndAddTags(pathname) &&

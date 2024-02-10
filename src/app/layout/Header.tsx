@@ -75,7 +75,7 @@ function Header() {
         </div>
 		<Container>
              <Navbar className='nav_header' expand="lg">
-              <Navbar.Brand href="#home" className='logo'>
+              <Navbar.Brand href="/" className='logo'>
                <Image src={logo} alt="logo" /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -91,7 +91,7 @@ function Header() {
                       <NavDropdown.Item href="/">KARAMYOGI - UPPSC Updated</NavDropdown.Item>
                       <NavDropdown.Item href="/"> Haryana Civil Services (HCS) 2023</NavDropdown.Item>
                     </NavDropdown> */}
-                    <Link className='nav-link' href="/blogs">Blogs</Link>
+                    {/*<Link className='nav-link' href="/blogs">Blogs</Link>*/}
                     <Link className='nav-link' href="/#footersec">Contact US</Link>
                     
                   </Nav>

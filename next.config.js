@@ -2,12 +2,11 @@
 const nextConfig = {
     reactStrictMode: true,
     distDir: 'build',
-    // output: 'export',
+    //output: 'export',
     // distDir: '_static',
     // images: {
     //     unoptimized: true
     // }
 }
 
-module.exports = nextConfig
-
+module.exports = nextConfig;

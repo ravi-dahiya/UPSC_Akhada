@@ -98,7 +98,7 @@ function Courses() {
       <section className="courses_sec bg_light_grey">
         <Container>
           <div className="section_title">
-            <h1>Mission Mode Program - Paper wise Daily Answer Writing</h1>
+            <h1>Anthropology Mentorship & Answer Writing Program</h1>
           </div>
 
           <Row>
@@ -108,7 +108,7 @@ function Courses() {
                 <h1>₹ 2,500</h1>
                 <ul>
                   <li>
-                    <FaArrowCircleRight /> Copy Evaluation with detailed feedback
+                    <FaArrowCircleRight /> Comprehensive Syllabus Coverage
                   </li>
                   <li>
                     <FaArrowCircleRight /> Mentoring sessions for individuals

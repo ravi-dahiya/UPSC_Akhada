@@ -75,6 +75,7 @@ p {
   font-weight: 500;
   margin-bottom: 5px;
   line-height: 1.5;
+  text-align: justify;
 }
 
 label {
@@ -135,7 +136,7 @@ body .solid_btn:hover {
 }
 
 .solid_btn:hover:after {
-  width: 120%;
+  width: 100%;
   background-color: rgba(255, 255, 255, 0);
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
@@ -255,8 +256,9 @@ body ul {
 
 
 .header {
-  z-index: 1;
-  position: relative;
+	z-index: 1;
+	position: relative;
+	border-bottom: 1px solid #f3f3f3;
 }
 
 .logo img {
@@ -474,6 +476,7 @@ body .nav_header {
 
 .selection_count p {
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .selection_course img {
@@ -514,18 +517,57 @@ body .nav_header {
 
 /* ==course section === */
 
-.course_card {
-  border: 1px solid #f5f5f5;
-  box-shadow: 0 0 20px #eee;
-  padding: 30px;
-  border-radius: 10px;
-  min-height: 390px;
-  position: relative;
-  background: #fff;
+.course_card::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
 }
+
+/* Track */
+.course_card::-webkit-scrollbar-track {
+  /* box-shadow: inset 0 0 5px ; */
+  border-radius: 10px;
+  background: #CCE6E6;
+}
+
+/* Handle */
+.course_card::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #517dbe;
+}
+
+.course_card {
+	border: 1px solid #f5f5f5;
+	box-shadow: 0 0 20px #eee;
+	padding: 25px 25px 55px;
+	border-radius: 10px;
+	height: 430px;
+	position: relative;
+	background: #fff;
+	overflow-y: auto;
+  /* margin-bottom: 30px; */
+}
+
+.short_card {
+height: 290px;
+}
+
+.card_height_auto .course_card  {
+  /* height: 280px; */
+  height: 100%;
+}
+
+.courses_sec .col-lg-3, .courses_sec .col-lg-4 {
+  margin-bottom: 30px;
+}
+
 
 .course_card h3 , .course_card h1 {
  font-weight: 500;
+}
+
+.course_card h3 {
+  font-weight: 600;
+ font-size: 24px;
 }
 
 .course_card ul li {
@@ -929,6 +971,8 @@ body .nav_header {
 .inner_content h4 {
   font-size: 25px;
   font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 10px;
 }
 
 .inner_content ul {
@@ -1139,6 +1183,28 @@ body .nav_header {
   letter-spacing: 1px;
 }
 
+.solid_bg {
+  min-height: 160px;
+  background: #133747;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.price_Details {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+	align-items: flex-start;
+}
+
+.price_Details .btn {
+  height: 45px;
+  min-width: 200px;
+}
+
 
 /*======== responsive starts here ========== */
 
@@ -1238,12 +1304,14 @@ body .nav_header {
 
   .course_card {
     min-height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 0;
+    padding-bottom: 25px;
+    height: auto !important;
   }
 
   .course_card .btn {
     position: relative;
-    margin-top: 15px;
+    margin-top: 10px;
   }
 
   .contact_sec .section_title {
@@ -1291,7 +1359,14 @@ body .nav_header {
     height: 200px;
   }
 
+  .solid_bg {
+    text-align: center;
+    padding: 10px;
+  }
 
+  .price_Details {
+    margin-top: 15px;
+  }
 
 
 
