@@ -21,37 +21,37 @@ function NewlyAdded() {
                 </Col>
                 <Col lg={4} sm={6}>
                     <div className="newly_card">
-                        <h4>UPSC Mains Daily Answer Writing(GS & ESSAY)</h4>
+                        <h4>HCS MAINS TEST SERIES 2024</h4>
                         <p> </p>
-                        <a href="https://mgxpi.courses.store/353417?utm_source%3Dother%26utm_medium%3Dtutor-course-referral%26utm_campaign%3Dcourse-overview-webapp" target="_blank">Read more</a>
+                        <a href="https://mgxpi.courses.store/455077?mainCategory=15" target="_blank">Read more</a>
                     </div>
                 </Col>
                 <Col lg={4} sm={6}>
                     <div className="newly_card">
-                        <h4>Science & Technology</h4>
+                        <h4>HCS MAINS DAILY ANSWER WRITING 2024</h4>
                         <p> </p>
-                        <a href="https://mgxpi.courses.store/399124?utm_source%3Dother%26utm_medium%3Dtutor-course-referral%26utm_campaign%3Dcourse-overview-webapp" target="_blank">Read more</a>
+                        <a href="https://mgxpi.courses.store/457848?utm_source%3Dother%26utm_medium%3Dtutor-course-referral%26utm_campaign%3Dcourse-overview-webapp" target="_blank">Read more</a>
                     </div>
                 </Col>
                 <Col lg={4} sm={6}>
                     <div className="newly_card">
-                        <h4>Public Administration Daily Answer Writing</h4>
+                        <h4>HCS MAINS ADVANCE LEVEL COURSE 2024</h4>
                         <p> </p>
-                        <a href="https://mgxpi.courses.store/286727?utm_source%3Dother%26utm_medium%3Dtutor-course-referral%26utm_campaign%3Dcourse-overview-webapp" target="_blank">Read more</a>
+                        <a href="https://mgxpi.courses.store/460973?utm_source%3Dother%26utm_medium%3Dtutor-course-referral%26utm_campaign%3Dcourse-overview-webapp" target="_blank">Read more</a>
                     </div>
                 </Col>
                 <Col lg={4} sm={6}>
                     <div className="newly_card">
-                        <h4>Psychology Optional Mentorship and Previous Year Answer Writing </h4>
+                        <h4>RATTAMAAR FOR MAINS</h4>
                         <p>  </p>
-                        <a href="https://mgxpi.courses.store/211279?utm_source%3Dother%26utm_medium%3Dtutor-course-referral%26utm_campaign%3Dcourse-overview-webapp" target="_blank">Read more</a>
+                        <a href="https://mgxpi.courses.store/363659?utm_source%3Dother%26utm_medium%3Dtutor-course-referral%26utm_campaign%3Dcourse-overview-webapp" target="_blank">Read more</a>
                     </div>
                 </Col>
                 <Col lg={4} sm={6}>
                     <div className="newly_card">
-                        <h4>PSIR Optional Mentorship and Daily Answer Writing</h4>
+                        <h4>HCS FOUNDATION COURSE</h4>
                         <p> </p>
-                        <a href="https://mgxpi.courses.store/271056?utm_source%3Dother%26utm_medium%3Dtutor-course-referral%26utm_campaign%3Dcourse-overview-webapp" target="_blank">Read more</a>
+                        <a href="https://mgxpi.courses.store/309011?utm_source%3Dother%26utm_medium%3Dtutor-course-referral%26utm_campaign%3Dcourse-overview-webapp" target="_blank">Read more</a>
                     </div>
                 </Col>
             </Row>
